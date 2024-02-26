@@ -55,3 +55,20 @@ print(villes)
 
 # count
 print(villes.count("Paris"))
+
+# vérifions si un élément est dans notre liste
+
+if "Paris" in villes:
+    print("oui")
+else:
+    print("non")
+
+for i in villes:
+    print(i)
+
+for index, value in enumerate(villes):
+    print(index)
+    print(value)
+
+for a, b in zip(villes, villes_2):
+    print(a, b)
