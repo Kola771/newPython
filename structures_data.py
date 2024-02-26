@@ -30,3 +30,28 @@ print(villes[:3])
 print(villes[2:])
 print(villes[::2])
 print(villes[::-1])
+
+# append
+villes.append("Dublin")
+print(villes)
+
+# insert
+villes.insert(1, 'Madrid')
+print(villes)
+
+# extend
+villes_2 = ["Amsterdam", "Rome"]
+villes.extend(villes_2)
+print(villes)
+
+# len
+print(len(villes))
+
+# sort
+villes.sort()
+print(villes)
+villes.sort(reverse=True)
+print(villes)
+
+# count
+print(villes.count("Paris"))
